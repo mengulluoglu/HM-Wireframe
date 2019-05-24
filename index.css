@@ -42,30 +42,37 @@ article {
 }
 
 section {
-    text-align: top;
+    text-align: center;
     background-color: #ebebeb;
     float: left;
-    padding: 10px;
-    margin: 5px 5px 5px 5px;
-    width: 200px;
+    margin: 5px -5px 5px 5px;
+    width: 350px;
+    height: 200px;
+}
+
+.flex-container>div {
+    background-color: #ebebeb;
+    width: 250px;
+    height: 10px;
+    margin: 10px 10px 10px 20px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 12px;
+    color: #777777;
 }
 
 article {
-    width: 200px;
-}
-
-article p {
-    color: #777;
-    background: #ebebeb;
-    text-align: center;
-    width: 200px;
+    width: 300px;
+    background-color: #777777;
+    height: 100px;
+    padding: 10px 10px 10px 20px;
 }
 
 aside {
-    float: right;
-    margin: 10px 10px 10px 10px;
+    float: left;
+    margin: 5px 5px 5px 20px;
     text-align: center;
-    width: 200px;
+    width: 225px;
     height: 200px;
 }
 
@@ -74,5 +81,6 @@ footer {
     color: #777777;
     width: 600px;
     margin: 5px;
+    padding: 10px;
     clear: both;
 }
